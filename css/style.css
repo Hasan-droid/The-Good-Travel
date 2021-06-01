@@ -1,0 +1,51 @@
+ img{
+     width: 200px;
+     height: 200px;
+ }
+
+ .fonts{
+    font-family: 'Righteous', cursive;
+ }
+
+ body{
+     background-image:url("https://raw.githubusercontent.com/LTUC/amman-201d25/main/assets/img/background.png");
+     font-size: 18px;
+     font-family: 'Righteous', cursive;
+ }
+ .Header{
+     background-color: rgba(202, 240, 251, 255);
+     height: 60px;
+     text-align: center;
+     font-family: 'Righteous', cursive;
+ }
+div form{
+    color: #5d4b7696;
+   background-color:  #fffdfe88;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 200px;
+    font-size: 40px;
+    font-family: 'Righteous', cursive;
+  
+}
+table{
+    display: inline-block;
+    margin-left: 1000px;
+    font-family: 'Righteous', cursive;
+    
+}
+table td{
+    border: solid 2px black;
+}
+ ul li{
+     background-color:  #fffdfe88;
+     
+ }
+
+ .footer{
+     background-color: #f376a288;
+     height: 60px;
+     text-align: center;
+     font-family: 'Righteous', cursive;
+ }
+

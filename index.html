@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Travels</title>
+</head>
+
+      <p class="Header">my next trips</p>
+    
+<body>
+
+
+    <div>
+        <form id=form>
+         
+                <label for="pname">Place name:</label><br>
+                <input type="text" id="pname" name="pname" placeholder="Name" required ><br>
+                <label for="tripplace">Trip Place</label><br>
+                <select name="tripplace" id="tripplace">
+                    <option value="HAWAII">HAWAII</option>
+                    <option value="LONDON">LONDON</option>
+                    <option value="PARIS">PARIS</option>
+                    <option value="ITALY">ITALY</option>
+                    <option value="SLOVAKIA">SLOVAKIA</option>
+                    <option value="MALAYSIA">MALAYSIA</option>
+                  </select><br>
+                  <label for="transporttype">Type of Transport</label><br>
+                  <select name="transporttype" id="transporttype">
+                    <option value="car">car</option>
+                    <option value="train">Train</option>
+                    <option value="fly">Fly</option>
+                    <option value="ship">ship</option>
+                  </select><br>
+                  <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+   
+    <div id="tablediv">
+        <table id="table">
+            <tr>
+                <td><img src="./img/places/HAWAII.jpg"></td>
+                <td><ul>
+                    <li>place name:us</li>
+                    <li>trip place:Hawaii</li>
+                    <li>type of passport:Cruise</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><img src="./img/places/ITALY.png"></td>
+                <td><ul>
+                    <li>place name:Eourpe</li>
+                    <li>trip place:Italy</li>
+                    <li>type of passport:Train</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><img src="./img/places/LONDON.png"></td>
+                <td><ul>
+                    <li>place name:UK</li>
+                    <li>trip place:London</li>
+                    <li>type of passport:fly</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><img src="./img/places/MALAYSIA.png"></td>
+                <td><ul>
+                    <li>place name:Asia</li>
+                    <li>trip place:Malaysia</li>
+                    <li>type of passport:car</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><img src="./img/places/PARIS.png"></td>
+                <td><ul>
+                    <li>place name:Eourpe</li>
+                    <li>trip place:Paris</li>
+                    <li>type of passport:car</li>
+                </ul></td>
+            </tr>
+            <tr>
+                <td><img src="./img/places/SLOVAKIA.png"></td>
+                <td><ul>
+                    <li>place name:Eourpe</li>
+                    <li>trip place:Slovakia</li>
+                    <li>type of passport:car</li>
+                </ul></td>
+            </tr>
+        </table>
+    </div>
+    
+   
+  <script src="js/app.js"></script>  
+</body>
+ <footer class="footer">
+    all rights recived
+</footer> 
+</html>
